@@ -8,6 +8,7 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "jest": "^24.8.0",
     "parcel-bundler": "^1.12.3"
   },
   "scripts": {
