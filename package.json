@@ -14,6 +14,7 @@
     "parcel-bundler": "^1.12.3"
   },
   "scripts": {
+    "build": "parcel build src/shuck.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
