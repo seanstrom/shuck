@@ -1,0 +1,31 @@
+{
+  "name": "shuck",
+  "version": "0.1.0",
+  "description": "clone the structure of an object",
+  "main": "dist/shuck.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "shuck",
+    "husk",
+    "clone",
+    "null",
+    "object"
+  ],
+  "author": "seanstrom",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanstrom/shuck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seanstrom/shuck/issues"
+  },
+  "homepage": "https://github.com/seanstrom/shuck#readme"
+}
