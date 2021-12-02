@@ -1,8 +1,9 @@
 {
   "name": "shuck",
   "version": "0.1.0",
+  "type": "module",
   "description": "clone the structure of an object",
-  "main": "dist/shuck.js",
+  "main": "src/shuck.js",
   "directories": {
     "test": "test"
   },
