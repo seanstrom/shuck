@@ -7,15 +7,10 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "jest": "^24.8.0",
-    "parcel-bundler": "^1.12.3"
+    "jest": "^27.4.3"
   },
   "scripts": {
-    "build": "parcel build src/shuck.js",
     "test": "jest"
   },
   "keywords": [
