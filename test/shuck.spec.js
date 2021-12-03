@@ -1,3 +1,4 @@
+import { expect } from 'chai'
 import shuck from '../src/shuck'
 
 describe('Shuck', () => {
@@ -6,7 +7,7 @@ describe('Shuck', () => {
       const sample = { a: 'a', b: 'b', c: 'c' }
       const result = shuck(sample)
 
-      expect(result).toEqual({
+      expect(result).to.deep.equal({
         a: null,
         b: null,
         c: null
@@ -19,7 +20,7 @@ describe('Shuck', () => {
       const sample = { a: 'a', b: 'b', c: { d: 'd' } }
       const result = shuck(sample)
 
-      expect(result).toEqual({
+      expect(result).to.deep.equal({
         a: null,
         b: null,
         c: {
